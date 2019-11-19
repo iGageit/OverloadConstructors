@@ -19,6 +19,14 @@ item1.setUnits(8);
 
 InventoryItem item3("Flathead Screwdriver", 5.33, 63);
 // Array of objects 
+// store and display the items in the list
+
+const int NUM_ITEMS = 3;
+InventoryItem InventoryArray[NUM_ITEMS];
+InventoryArray[0] = item1;
+InventoryArray[1] = item2;
+InventoryArray[2] = item3;
+
 
   return 0;
 }
